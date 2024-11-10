@@ -20,6 +20,7 @@ function AnimatedSprite(_ref) {
     sheetWidth = _ref.sheetWidth,
     spriteSize = _ref.spriteSize,
     spriteIndices = _ref.spriteIndices,
+    interval = _ref.interval,
     loop = _ref.loop;
   var _React$useState = _react["default"].useState(0),
     _React$useState2 = _slicedToArray(_React$useState, 2),
@@ -36,7 +37,7 @@ function AnimatedSprite(_ref) {
     if (loop) {
       setIndex(0);
     }
-  }, 1000);
+  }, interval);
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: className,
     style: {

@@ -6,6 +6,7 @@ function AnimatedSprite({
   sheetWidth,
   spriteSize,
   spriteIndices,
+  interval,
   loop
 }) {
   const [index, setIndex] = React.useState(0);
@@ -22,7 +23,7 @@ function AnimatedSprite({
     if (loop) {
       setIndex(0);
     }
-  }, 1000);
+  }, interval);
 
   return (
     <div
