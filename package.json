@@ -1,0 +1,22 @@
+{
+  "name": "react-animated-sprite-js",
+  "version": "1.0.0",
+  "description": "Animated sprite from spritesheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoang-phan/react-animated-sprite-js.git"
+  },
+  "author": "hoang-phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoang-phan/react-animated-sprite-js/issues"
+  },
+  "homepage": "https://github.com/hoang-phan/react-animated-sprite-js#readme",
+  "dependencies": {
+    "use-interval-js": "^1.0.0"
+  }
+}
