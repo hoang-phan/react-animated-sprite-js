@@ -2,9 +2,9 @@
   "name": "react-animated-sprite-js",
   "version": "1.0.0",
   "description": "Animated sprite from spritesheet",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/hoang-phan/react-animated-sprite-js#readme",
   "dependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "use-interval-js": "^1.0.0"
   }
 }
