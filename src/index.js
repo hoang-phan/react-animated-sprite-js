@@ -1,6 +1,7 @@
+import React, { useState } from 'react';
 import { useInterval } from 'use-interval-js';
 
-export default function AnimatedSprite({
+function AnimatedSprite({
   className,
   sheetWidth,
   spriteSize,
@@ -34,3 +35,5 @@ export default function AnimatedSprite({
     />
   )  
 };
+
+export default AnimatedSprite;
